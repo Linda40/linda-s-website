@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
 <head>
 <title>Volunteering</title>
 <style>
- 
   body {
     background-color: #faf2e4;
     font-family: 'Merriweather', verdana, sans-serif;

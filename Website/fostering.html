@@ -9,7 +9,7 @@
 <link href="stylesheet" href="2column-style.css" media="screen and (min-width:1024px)"> 
 <style>
   body {
-    background-color: #faf2e4;
+    background-color: #245,255,250;
     font-family: 'Merriweather', verdana, sans-serif;
     font-size: 100%;
     line-height: 1.75em;
@@ -17,14 +17,14 @@
   h1 {
     font: bold 1.5em 'Merriweather', verdana, sans-serif;
     color: #0,0,0,0;
-    text-shadow: .05em .05em .1em lightslategray;
+    text-shadow: .05em .05em .1em black1;
     text-align: center;
   }
   h2, h3 {
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: .5em;
-    color: olive;
+    color: #250,235,215;
     text-align: center;
   }
   dt {
@@ -41,20 +41,13 @@
     font-style: italic; 
     color: gray;
   }
-  .price {
-    font-family: verdana, sans-serif;
-    font-weight: bold;
-    color: black;
-   }
+
   .label {
     font-weight: bold;
     font-variant: small-caps;
     font-style: normal;
    }
-  .warning, sup {
-    font-size: small;
-    color: red;
-  }
+ 
  .info { 
     text-align: center;
   }
@@ -68,14 +61,119 @@
  nav {
         text-align: center;
         }
-   img {
+  
+  small {
+  color: #000;
+  } @charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background-color: #COCOCO; /*silver*/
+ 
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background-color: rgba(245,245,220);/*beige*/
+  background: url(images/dog&cat.png) center top repeat-x;
+  background: url(images/dog&cat.png) 90% bottom no-repeat;  
+}
+ img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        }
-  small {
-  color: #000;
-  }
+}
+
+a {
+  text-decoration: none;
+}
+  a:link {
+    color: #000080;
+}
+a:visited {
+  color: #937393;
+}
+a:focus, a:hover {
+  color: #c700f2;
+  background-color: #fff;
+}
+a:active {
+  color: #f0f;
+  background-color: #fff;
+}
+h1 {
+  font: bold 1.5em Georgia, serif;
+  text-shadow: .1em .1em .2em gray;
+  text-align: center;
+  color: #black;
+}
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: #black;
+}
+
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#info p {
+  font-style: italic;
+}
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+a {
+  display: block;
+  width: 6em;
+  margin: 0 5px;
+  padding: .5em 1em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .1em;
+  color: #0000;
+  background-color: rgb(190, 190, 190);
+  border: 2px solid rgb(175,175,175);
+  border-radius: 6px;
+  text-shadow: #666 .1em .1em .1em;
+  box-shadow: 0 4px 2px rgba(0,0,0,.5);
+  position: relative;
+  top: 0px;
+  transition:  
+    background-color 0.2s,
+    border-color 0.2s, 
+    top 0.1s, 
+    box-shadow 0.1s; 
+}
+a:hover, a:focus {  
+  background-color: #c6de89;  /* light green */
+  border-color: #a3c058;     /* darker green */
+} 
+a:active {
+  top: 3px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
 @import url(style.css);
 /*other styles*/
 @import url("/default-style.css");
@@ -84,10 +182,12 @@
 </head>
 
 <body>
+ 
  <p><img src="images/dog&cat.png" class="img-fluid" alt="Dog and Cat></p>
+<section id="nav">
 <ul>
-  <li><a href="">Home</a></li>
   <li><a href="">Foster</a></li>
+  <li><a href="">Info</a></li>
   <li><a href="">Contact</a></li>
 </ul>
 

@@ -18,6 +18,18 @@ header {
    width: 250px;
    height: 250px
 }
+img.large {
+  width: 1200px;
+  height: 600px
+}
+img.medium {
+  width: 500px;
+  height: 250px
+}  
+img.small {
+  width: 250px;
+  height: 100px
+}  
 
 
 /*body*/

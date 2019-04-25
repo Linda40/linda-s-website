@@ -1,23 +1,57 @@
 <style>
-  body {
-    background-color: #245,255,250;
-    font-family: 'Merriweather', verdana, sans-serif;
-    font-size: 100%;
-    line-height: 1.75em;
-  }
+/*header*/
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background-color: rgba(245,245,220);/*beige*/
+  background: url(images/dog&cat.png) center top repeat-x;
+  background: url(images/dog&cat.png) 90% bottom no-repeat;  
+}
+  img.align-left{
+   float: left;
+   margin-right: 10px;}
+img.align-right{
+   float: right;
+   margin-left: 10px;}
+img.medium {
+  width: 250px;
+height: 250px}
+
+/*body*/
+ 
+body {
+  font-family:'Merriweather', verdana, sans-serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background-color: #COCOCO; /*silver*/
+}
+ /*h1*/
   h1 {
     font: bold 1.5em 'Merriweather', verdana, sans-serif;
     color: #0,0,0,0;
-    text-shadow: .05em .05em .1em black1;
-    text-align: center;
+    text-shadow: .1em .1em .2em gray;
+    text-align: left;
   }
-  h2, h3 {
+  
+  /*h2*,h3/
+
+  h2 {
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: .5em;
-    color: #250,235,215;
+    color: #0,0,0,0;
     text-align: center;
   }
+  h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: #0,0,0,0;
+}
+
   dt {
     font-weight: bold;
     color: #0,0,0,0;
@@ -38,11 +72,8 @@
     font-style: normal;
    }
  
- .info { 
-    text-align: center;
-  }
   p { 
-    text-align: center;
+    text-align: left;
     font-style: italic;
   }
   ul {
@@ -51,41 +82,12 @@
  nav {
         text-align: center;
         }
-  
-  small {
-  color: #000;
-  } @charset "UTF-8";
-html {
+ html {
   box-sizing: border-box;
 }
 * {
   box-sizing: inherit;
 }
-body {
-  font-family: Georgia, serif;
-  font-size: 100%;
-  line-height: 175%;
-  margin: 0 15% 0;
-  background-color: #COCOCO; /*silver*/
- 
-}
-header {
-  margin-top: 0;
-  padding: 3em 1em 2em 1em;
-  text-align: center;
-  background-color: rgba(245,245,220);/*beige*/
-  background: url(images/dog&cat.png) center top repeat-x;
-  background: url(images/dog&cat.png) 90% bottom no-repeat;  
-}
- img.align-left{
-   float: left;
-   margin-right: 10px;}
-img.align-right{
-   float: right;
-   margin-left: 10px;}
-img.medium {
-  width: 250px;
-height: 250px}
 a {
   text-decoration: none;
 }
@@ -102,20 +104,10 @@ a:focus, a:hover {
 a:active {
   color: #f0f;
   background-color: #fff;
-}
-h1 {
-  font: bold 1.5em Georgia, serif;
-  text-shadow: .1em .1em .2em gray;
-  text-align: center;
-  color: #black;
-}
-h2 {
-  font-size: 1em;
-  text-transform: uppercase;
-  letter-spacing: .5em;
-  text-align: center;
-  color: #black;
-}
+} 
+
+
+
 dt {
   font-weight: bold;
 }
@@ -124,14 +116,6 @@ strong {
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-#info p {
-  font-style: italic;
-}
-ul {
-  list-style-type:none;
   margin: 0;
   padding: 0;
   display: flex;
@@ -168,6 +152,6 @@ a:active {
 }
 @import url(style.css);
 /*other styles*/
-@import url("/default-style.css");
+@import url("/default-stylesheet.css");
 @import url("/wide-style.css") screen and (min-width: 1024px);
 </style>

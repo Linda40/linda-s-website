@@ -5,18 +5,20 @@ header {
   padding: 3em 1em 2em 1em;
   text-align: center;
   background-color: rgba(245,245,220);/*beige*/
-  background: url(images/dog&cat.png) center top repeat-x;
+  background: url(images/dog&cat.png) left top repeat-x;
   background: url(images/dog&cat.png) 90% bottom no-repeat;  
 }
   img.align-left{
    float: left;
    margin-right: 10px;}
-img.align-right{
+  img.align-right{
    float: right;
    margin-left: 10px;}
-img.medium {
-  width: 250px;
-height: 250px}
+   img.medium {
+   width: 250px;
+   height: 250px
+}
+
 
 /*body*/
  

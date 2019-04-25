@@ -13,7 +13,7 @@ header {
    float: right;
    margin-left: 2px;}
    img.medium {
-   width: 250px;
+   width: 550px;
    height: 250px
 }
 img.large {
@@ -36,7 +36,7 @@ body {
   font-family:'Merriweather', verdana, sans-serif;
   font-size: 100%;
   line-height: 175%;
-  margin: 0 15% 0;
+  
   background-color: #COCOCO; /*silver*/
 }
  /*h1*/

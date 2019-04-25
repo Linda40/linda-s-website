@@ -2,7 +2,7 @@
 /*header*/
 header {
   margin-top: 0;
-  padding: 3em 1em 2em 1em;
+ 
   text-align: left;
   background-color: rgba(245,245,220);/*beige*/ 
 }
@@ -47,7 +47,7 @@ body {
     text-align: left;
   }
   
-  /*h2*,h3/
+  /*h2*,h3*/
 
   h2 {
     font-size: 1em;

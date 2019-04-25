@@ -8,10 +8,10 @@ header {
 }
   img.align-left{
    float: left;
-   margin-right: 10px;}
+   margin-right: 2px;}
   img.align-right{
    float: right;
-   margin-left: 10px;}
+   margin-left: 2px;}
    img.medium {
    width: 250px;
    height: 250px

@@ -77,11 +77,15 @@ header {
   background: url(images/dog&cat.png) center top repeat-x;
   background: url(images/dog&cat.png) 90% bottom no-repeat;  
 }
- img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-}
+ img.align-left{
+   float: left;
+   margin-right: 10px;}
+img.align-right{
+   float: right;
+   margin-left: 10px;}
+img.medium {
+  width: 250px;
+  height: 250px}
 a {
   text-decoration: none;
 }

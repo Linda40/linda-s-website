@@ -2,8 +2,8 @@
 /*header*/
 header {
   margin-top: 0;
-  padding: 3em 1em 2em 1em;
-  text-align: center;
+  
+  text-align: left;
   background-color: rgba(245,245,220);/*beige*/
   background: url(images/dog&cat.png) left top repeat-x;
   background: url(images/dog&cat.png) 90% bottom no-repeat;  
